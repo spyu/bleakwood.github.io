@@ -1,59 +1,92 @@
 header {
-	height: 392px;
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		color-stop(0, #CBCBCB),
-		color-stop(0.22, #250511),
-		color-stop(1, #432730)
-	);
-	background-image: -o-linear-gradient(bottom, #CBCBCB 0%, #250511 22%, #432730 100%);
-	background-image: -moz-linear-gradient(bottom, #CBCBCB 0%, #250511 22%, #432730 100%);
-	background-image: -webkit-linear-gradient(bottom, #CBCBCB 0%, #250511 22%, #432730 100%);
-	background-image: -ms-linear-gradient(bottom, #CBCBCB 0%, #250511 22%, #432730 100%);
-	background-image: linear-gradient(to bottom, #CBCBCB 0%, #250511 22%, #432730 100%);
+	height: 182px;
+	.logo{
+		margin: 51px auto;
+		width: 95px;
+		height: 134px;
+	}
+}
+footer {
+	color: #605151;
+	padding-left: 159px;
+	background: #b3ada7;
+	height: 300px;
+	width: 110%;
+	.contact-info, .logo {
+		margin-top: 100px;
+	}
+	.logo {
+		background: #3d212a;
+		display: inline-block;
+		height: 152px;
+		width: 111px;
+		padding: 8px;
+	}
 }
 @font-face {
   font-family: 'FZZhengHeiS';
   src: url('../fonts/FZZhengHeiS-EL-GB.TTF') format('truetype');
 }
+@font-face {
+  font-family: 'FZZhengHeiR';
+  src: url('../fonts/FZZhengHeiS-R-GB.TTF') format('truetype');
+}
 body{
-	background-color: #230410;
+	background-color: #550e20;
 	color: white;
-	font-family: 'FZZhengHeiS';
+	font-family: 'FZZhengHeiR';
 	nav.navbar-default {
-		background-color: #230410;
-		height: 94px;
+		.navbar-nav>li>a {
+			color: #b7969c;
+		}
+		width: 110%;
+		background-color: #550e20;
+		height: 50px;
 		border-right: none;
 		border-left: none;
 		border-radius: 0;
-		font-size: 20px;
+		font-size: 14px;
+		margin-bottom: 0;
 		ul.navbar-nav {
-			padding-top: 20px;
 			li.dropdown {
-				margin-left: 100px;
+				margin-left: 150px;
 			}
 		}
 	}
-
 	.feature-image-wrapper {
 		margin-top: -20px;
 	}
-
-	.service-introduction {
-		h2 {
-			text-align: center;
-			/*margin-bottom: 133px;*/
-		}
-		h4 {
-			padding: 50px;
-			margin-left: 100px;
+	.facial-service-intro-wrapper{
+		background: #e7e6e4;
+		padding-bottom: 260px;
+		.service-introduction {
+			color: #030303;
 		}
 	}
+	.service-introduction {
+		padding-top: 130px;
+		width: 1170px;
+		margin: 0 auto;
+		h3.title {
+			text-align: center;
+			margin-bottom: 73px;
+		}
+	}
+	h5.intro-description {
+		padding-right: 80px;
+		margin-top: 29px;
+	}
+	.body-service-intro-wrapper {
+		margin-top: 50px;
+		padding-bottom: 120px;
+		h3.title {
+			font-family: 'FZZhengHeiS';
+		}
+	}
+	
 	.salon-image{
 		img {
-			width: 1440px;
+			width: 110%;
 		}
 	}
 }
