@@ -23,6 +23,7 @@ footer {
   footer .row {
     margin-top: 100px; }
   footer .logo {
+    width: 90px;
     background: #3d212a;
     padding: 10px;
     margin-right: 54px; }
