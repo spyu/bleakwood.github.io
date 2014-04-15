@@ -6,22 +6,68 @@ header {
 		height: 134px;
 	}
 }
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
 footer {
 	color: #605151;
 	padding-left: 159px;
 	background: #b3ada7;
 	height: 300px;
-	width: 110%;
-	.contact-info, .logo {
+	border-top: 3px solid white;
+	.row {
 		margin-top: 100px;
 	}
 	.logo {
 		background: #3d212a;
-		display: inline-block;
-		height: 152px;
-		width: 111px;
-		padding: 8px;
+		padding: 10px;
+		margin-right: 54px;
+		img {
+			display: inline-block;
+			height: auto;
+			width: 71px;
+		}
 	}
+	.bold {
+		color: #4c3138;
+	}
+	.contact-info {
+		.address {
+			margin-right: 28px;
+		}
+		.phone-number {
+			margin-right: 50px;
+		}
+		.email {
+			margin-right: 50px;
+		}
+		.careers {
+			margin-right: 20px;
+		}
+	}
+	.social-media {
+		margin-left: 28px;
+		img {
+			margin-right: 15px;
+		}
+		p{
+			margin-top: 46px;
+			color: #4c3138;
+		}
+	}
+	.designer-symbol {
+		margin-top: 94px;
+		font-size: 10px;
+	}
+}
+.bold {
+	font-family: 'FZZhengHeiR';
 }
 @font-face {
   font-family: 'FZZhengHeiS';
@@ -31,34 +77,53 @@ footer {
   font-family: 'FZZhengHeiR';
   src: url('../fonts/FZZhengHeiS-R-GB.TTF') format('truetype');
 }
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #b7969c;
+    background-color: #550e20;
+    opacity: 0.7;
+}
 body{
 	background-color: #550e20;
-	color: white;
-	font-family: 'FZZhengHeiR';
-	nav.navbar-default {
-		.navbar-nav>li>a {
-			color: #b7969c;
-		}
-		width: 110%;
-		background-color: #550e20;
-		height: 50px;
-		border-right: none;
-		border-left: none;
+	font-family: 'FZZhengHeis';
+	.navbar-inverse {
+		color: #b7969c;
+    background-color: #550e20;
+		border: 0;
+		border-top: 1px solid white;
 		border-radius: 0;
-		font-size: 14px;
-		margin-bottom: 0;
-		ul.navbar-nav {
-			li.dropdown {
-				margin-left: 150px;
-			}
+		opacity: 0.7;
+		.navbar-nav>li {
+			margin-right: 91px;
 		}
 	}
-	.feature-image-wrapper {
-		margin-top: -20px;
+	.body-service {
+		background: #550e20;
+		border-radius: 0;
+		color: white;
 	}
-	.facial-service-intro-wrapper{
+	.jumbotron .facial-service {
 		background: #e7e6e4;
-		padding-bottom: 260px;
+	}
+	
+	.feature-image-wrapper {
+		margin-top: 80px;
+		.salon-image{
+			overflow: hidden;
+		}
+	}
+	.body-service-intro-wrapper, .facial-service-intro-wrapper{
+		h5 {
+			opacity: 0.7;
+		}
+		h3 {
+			text-align: center;
+		}
+		.title {
+			margin-bottom: 120px;
+		}
+		.row {
+			margin-bottom: 53px;
+		}
 		.service-introduction {
 			color: #030303;
 		}
@@ -78,15 +143,9 @@ body{
 	}
 	.body-service-intro-wrapper {
 		margin-top: 50px;
-		padding-bottom: 120px;
+		padding-bottom: 60px;
 		h3.title {
 			font-family: 'FZZhengHeiS';
-		}
-	}
-	
-	.salon-image{
-		img {
-			width: 110%;
 		}
 	}
 }

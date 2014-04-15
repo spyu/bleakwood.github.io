@@ -5,20 +5,54 @@ header {
     width: 95px;
     height: 134px; }
 
+h3 {
+  font-size: 21px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 16px; }
+
 footer {
   color: #605151;
   padding-left: 159px;
   background: #b3ada7;
   height: 300px;
-  width: 110%; }
-  footer .contact-info, footer .logo {
+  border-top: 3px solid white; }
+  footer .row {
     margin-top: 100px; }
   footer .logo {
     background: #3d212a;
-    display: inline-block;
-    height: 152px;
-    width: 111px;
-    padding: 8px; }
+    padding: 10px;
+    margin-right: 54px; }
+    footer .logo img {
+      display: inline-block;
+      height: auto;
+      width: 71px; }
+  footer .bold {
+    color: #4c3138; }
+  footer .contact-info .address {
+    margin-right: 28px; }
+  footer .contact-info .phone-number {
+    margin-right: 50px; }
+  footer .contact-info .email {
+    margin-right: 50px; }
+  footer .contact-info .careers {
+    margin-right: 20px; }
+  footer .social-media {
+    margin-left: 28px; }
+    footer .social-media img {
+      margin-right: 15px; }
+    footer .social-media p {
+      margin-top: 46px;
+      color: #4c3138; }
+  footer .designer-symbol {
+    margin-top: 94px;
+    font-size: 10px; }
+
+.bold {
+  font-family: 'FZZhengHeiR'; }
 
 @font-face {
   font-family: 'FZZhengHeiS';
@@ -26,30 +60,43 @@ footer {
 @font-face {
   font-family: 'FZZhengHeiR';
   src: url("../fonts/FZZhengHeiS-R-GB.TTF") format("truetype"); }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #b7969c;
+  background-color: #550e20;
+  opacity: 0.7; }
+
 body {
   background-color: #550e20;
-  color: white;
-  font-family: 'FZZhengHeiR'; }
-  body nav.navbar-default {
-    width: 110%;
+  font-family: 'FZZhengHeis'; }
+  body .navbar-inverse {
+    color: #b7969c;
     background-color: #550e20;
-    height: 50px;
-    border-right: none;
-    border-left: none;
+    border: 0;
+    border-top: 1px solid white;
     border-radius: 0;
-    font-size: 14px;
-    margin-bottom: 0; }
-    body nav.navbar-default .navbar-nav > li > a {
-      color: #b7969c; }
-    body nav.navbar-default ul.navbar-nav li.dropdown {
-      margin-left: 150px; }
+    opacity: 0.7; }
+    body .navbar-inverse .navbar-nav > li {
+      margin-right: 91px; }
+  body .body-service {
+    background: #550e20;
+    border-radius: 0;
+    color: white; }
+  body .jumbotron .facial-service {
+    background: #e7e6e4; }
   body .feature-image-wrapper {
-    margin-top: -20px; }
-  body .facial-service-intro-wrapper {
-    background: #e7e6e4;
-    padding-bottom: 260px; }
-    body .facial-service-intro-wrapper .service-introduction {
-      color: #030303; }
+    margin-top: 80px; }
+    body .feature-image-wrapper .salon-image {
+      overflow: hidden; }
+  body .body-service-intro-wrapper h5, body .facial-service-intro-wrapper h5 {
+    opacity: 0.7; }
+  body .body-service-intro-wrapper h3, body .facial-service-intro-wrapper h3 {
+    text-align: center; }
+  body .body-service-intro-wrapper .title, body .facial-service-intro-wrapper .title {
+    margin-bottom: 120px; }
+  body .body-service-intro-wrapper .row, body .facial-service-intro-wrapper .row {
+    margin-bottom: 53px; }
+  body .body-service-intro-wrapper .service-introduction, body .facial-service-intro-wrapper .service-introduction {
+    color: #030303; }
   body .service-introduction {
     padding-top: 130px;
     width: 1170px;
@@ -62,8 +109,6 @@ body {
     margin-top: 29px; }
   body .body-service-intro-wrapper {
     margin-top: 50px;
-    padding-bottom: 120px; }
+    padding-bottom: 60px; }
     body .body-service-intro-wrapper h3.title {
       font-family: 'FZZhengHeiS'; }
-  body .salon-image img {
-    width: 110%; }
