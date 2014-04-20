@@ -1,18 +1,66 @@
-header {
-  height: 182px; }
-  header .logo {
-    margin: 51px auto;
-    width: 95px;
-    height: 134px; }
-
 h3 {
   font-size: 21px; }
+
+h3.title {
+  text-align: center; }
 
 h4 {
   font-size: 18px; }
 
 h5 {
   font-size: 16px; }
+
+.logo {
+  margin: 51px auto;
+  width: 95px;
+  height: 134px; }
+
+body.index header {
+  height: 182px; }
+
+body.about header .carousel-indicators {
+  padding: 10px 50px 10px 83px;
+  background: rgba(141, 128, 122, 0.5);
+  margin-left: 32%;
+  width: 19%; }
+  body.about header .carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-right: 12px; }
+  body.about header .carousel-indicators li.active {
+    border: none;
+    background-color: #560f21; }
+body.about .navbar {
+  margin-bottom: 0; }
+body.about .feature-image-wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: inherit; }
+body.about .intro-text {
+  margin-top: 60px; }
+body.about .history-intro {
+  padding-bottom: 200px; }
+body.about .current-scale {
+  padding-top: 130px;
+  padding-bottom: 8px;
+  text-align: center;
+  background: #560f21;
+  color: #e8e7e2; }
+  body.about .current-scale .number {
+    font-size: 36px; }
+  body.about .current-scale .intro-text {
+    margin-top: 91px; }
+body.about .founder-intro {
+  padding-top: 21px;
+  background: #d3c2ba; }
+  body.about .founder-intro .icons-for-scale {
+    margin-left: 52px;
+    margin-bottom: 180px; }
+  body.about .founder-intro .founder-picture {
+    text-align: center;
+    padding-top: 60px; }
+    body.about .founder-intro .founder-picture img {
+      width: 260px; }
 
 footer {
   color: #605151;
@@ -103,7 +151,6 @@ body {
     width: 1170px;
     margin: 0 auto; }
     body .service-introduction h3.title {
-      text-align: center;
       margin-bottom: 73px; }
   body h5.intro-description {
     padding-right: 80px;
