@@ -18,6 +18,12 @@ h5 {
 body.index header {
   height: 182px; }
 
+.center-picture {
+  text-align: center;
+  padding-top: 60px; }
+  .center-picture img {
+    width: 260px; }
+
 body.about header .carousel-indicators {
   padding: 10px 50px 10px 83px;
   background: rgba(141, 128, 122, 0.5);
@@ -40,12 +46,13 @@ body.about .intro-text {
   margin-top: 60px; }
 body.about .history-intro {
   padding-bottom: 200px; }
+body.about .current-scale, body.about .honors, body.about .media-press {
+  background: #560f21;
+  color: #e8e7e2; }
 body.about .current-scale {
   padding-top: 130px;
   padding-bottom: 8px;
-  text-align: center;
-  background: #560f21;
-  color: #e8e7e2; }
+  text-align: center; }
   body.about .current-scale .number {
     font-size: 36px; }
   body.about .current-scale .intro-text {
@@ -56,11 +63,34 @@ body.about .founder-intro {
   body.about .founder-intro .icons-for-scale {
     margin-left: 52px;
     margin-bottom: 180px; }
-  body.about .founder-intro .founder-picture {
+body.about .honors {
+  font-family: 'FZZhengHeiS';
+  opacity: 0.7; }
+  body.about .honors p {
+    font-size: 16px; }
+body.about .team-intro {
+  color: #2a030e;
+  background: #e7e6e4; }
+  body.about .team-intro .hover-text {
+    color: #808080;
+    border: 1px solid #808080;
+    width: 315px;
     text-align: center;
-    padding-top: 60px; }
-    body.about .founder-intro .founder-picture img {
-      width: 260px; }
+    margin: 50px auto 0;
+    padding: 20px 0;
+    border-radius: 35px; }
+    body.about .team-intro .hover-text .fa {
+      font-size: 20px; }
+body.about .media-press h5 {
+  text-align: center; }
+body.about .testimony {
+  margin-bottom: 0; }
+  body.about .testimony .center-picture {
+    margin-bottom: 65px; }
+  body.about .testimony .testimony-block {
+    margin-bottom: 45px; }
+    body.about .testimony .testimony-block .identity {
+      margin-top: 45px; }
 
 footer {
   color: #605151;
@@ -71,10 +101,11 @@ footer {
   footer .row {
     margin-top: 100px; }
   footer .logo {
+    margin: 0 54px 0 0;
     width: 90px;
     background: #3d212a;
     padding: 10px;
-    margin-right: 54px; }
+    height: 120px; }
     footer .logo img {
       display: inline-block;
       height: auto;
